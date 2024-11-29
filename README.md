@@ -103,7 +103,7 @@ curl http://localhost:9100/metrics
 ![image](https://github.com/user-attachments/assets/d433ee4d-88fa-4f75-935b-316550eb0128)
 
 
-## [[⬆]](#toc) <a name='3'>Запусткаем Prometheus и Grafana в Docker</a>
+## [[⬆]](#toc) <a name='3'>Запускаем Prometheus и Grafana в Docker</a>
 
 ```
 sudo docker run -d --name=prometheus -p 9090:9090 bitnami/prometheus:latest
