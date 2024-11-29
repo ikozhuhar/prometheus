@@ -92,7 +92,13 @@ sudo docker run -d --name=grafana -p 3000:3000 grafana/grafana-enterprise
 ![image](https://github.com/user-attachments/assets/ca16facc-1c24-4ddf-8758-b95bb0da81b3)
 ![image](https://github.com/user-attachments/assets/818fcd56-7d61-4719-836d-74c15d8324ad)
 
-_Проверка работы Grafana_
+_Проверяем работу Prometheus_
+
+![image](https://github.com/user-attachments/assets/b207d214-c6d8-4291-8964-6ee08d8e7c8c)
+
+
+_Проверяем работу Grafana_
+
 ![image](https://github.com/user-attachments/assets/96879ae8-28fc-427b-aa81-732d9335112f)
 
 _Заходим под рутом в контейнер прометеуса_
@@ -112,7 +118,7 @@ _Редактируем конфигурационный файл Промете
 
 ![image](https://github.com/user-attachments/assets/8af05108-cec0-4c94-b66c-1a40f0a3ecc4)
 
-_Рестартуем контейнер Прометеуса_
+_Рестартуем контейнер Prometheus_
 
 ```
 docker restart 46a74c28a860
