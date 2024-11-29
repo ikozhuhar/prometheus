@@ -83,6 +83,54 @@ curl http://localhost:9100/metrics
 ![image](https://github.com/user-attachments/assets/d433ee4d-88fa-4f75-935b-316550eb0128)
 
 
+## Запусткаем Prometheus и Grafana в Docker
+
+```
+sudo docker run -d --name=prometheus -p 9090:9090 bitnami/prometheus:latest
+sudo docker run -d --name=grafana -p 3000:3000 grafana/grafana-enterprise
+```
+
+![image](https://github.com/user-attachments/assets/c776ba22-3c68-4891-ba55-c3e51e01c58e)
+![image](https://github.com/user-attachments/assets/ca16facc-1c24-4ddf-8758-b95bb0da81b3)
+![image](https://github.com/user-attachments/assets/818fcd56-7d61-4719-836d-74c15d8324ad)
+
+_Проверка работы Grafana_
+![image](https://github.com/user-attachments/assets/96879ae8-28fc-427b-aa81-732d9335112f)
+
+_Заходим под рутом в контейнер прометеуса_
+
+```
+docker exec -it -u 0 46a74c28a860 bash
+```
+![image](https://github.com/user-attachments/assets/9fb0e47d-26a0-47e4-b325-15e0bc26a59f)
+
+_Редактируем конфигурационный файл Прометеуса nano ./conf/prometheus.yml и добавляем наш хост_
+
+```
+- job_name: "localhost"
+    static_configs:
+      - targets: ["192.168.50.133:9100"]
+```
+
+![image](https://github.com/user-attachments/assets/8af05108-cec0-4c94-b66c-1a40f0a3ecc4)
+
+_Рестартуем контейнер Прометеуса_
+
+```
+docker restart 46a74c28a860
+```
+
+![image](https://github.com/user-attachments/assets/5b9a9e4e-cbdf-46cb-b27f-f3427e2bfc99)
+
+## Смтрим результат мониторинга нашего хоста
+
+![image](https://github.com/user-attachments/assets/83075e0d-c698-4903-a2b3-cb964a8ff618)
+
+
+
+
+
+
 
 
 
