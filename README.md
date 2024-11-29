@@ -125,7 +125,7 @@ docker exec -it -u 0 46a74c28a860 bash
 ```
 ![image](https://github.com/user-attachments/assets/9fb0e47d-26a0-47e4-b325-15e0bc26a59f)
 
-_Редактируем конфигурационный файл Прометеуса nano ./conf/prometheus.yml и добавляем наш хост_
+_Редактируем конфигурационный файл Prometheus `nano ./conf/prometheus.yml` и добавляем наш хост_
 
 ```
 - job_name: "localhost"
