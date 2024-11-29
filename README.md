@@ -160,11 +160,11 @@ _Теперь мы переходим на вкладку “Data Sources” и 
 
 ## [[⬆]](#toc) <a name='5'>Дополнительные источники</a>
 
-1. [Настраиваем мониторинг с Prometheus](https://ru.wikipedia.org/wiki/Systemd](https://pochemuchka.su/monitoring-with-prometheus-alertmanager-grafana/)
+1. [Настраиваем мониторинг с Prometheus](https://pochemuchka.su/monitoring-with-prometheus-alertmanager-grafana/)
 2. [Установка и настройка Prometheus](https://timeweb.cloud/tutorials/servers/ustanovka-i-nastrojka-prometheus)
-3. [Система мониторинга Prometheus](https://habr.com/ru/companies/timeweb/articles/824146/](https://help.reg.ru/support/servery-vps/oblachnyye-servery/ustanovka-programmnogo-obespecheniya/sistema-monitoringa-prometheus)
+3. [Система мониторинга Prometheus](https://help.reg.ru/support/servery-vps/oblachnyye-servery/ustanovka-programmnogo-obespecheniya/sistema-monitoringa-prometheus)
 4. [Grafana и Prometheus](https://1cloud.ru/blog/grafana_prometheus_system)
-5. [Установка и настройка Prometheus](https://1cloud.ru/blog/grafana_prometheus_system](https://losst.pro/ustanovka-i-nastrojka-prometheus)
+5. [Установка и настройка Prometheus](https://losst.pro/ustanovka-i-nastrojka-prometheus)
 
 
 
