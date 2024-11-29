@@ -62,7 +62,7 @@ WantedBy=multi-user.target
 ![image](https://github.com/user-attachments/assets/1b94d578-a6ef-4d19-9a58-c6f06d7552dc)
 
 
-_Перезагрузите демон, включаем службу node_exporter и проверяем статус:_
+_Перезагружаем демон, включаем службу node_exporter и проверяем статус:_
 
 ```
 sudo systemctl daemon-reload
