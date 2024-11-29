@@ -155,7 +155,7 @@ _Теперь мы переходим на вкладку “Data Sources” и 
 
 ## [[⬆]](#toc) <a name='4'>Результат настройки мониторинга</a>
 
-![image](https://github.com/user-attachments/assets/83075e0d-c698-4903-a2b3-cb964a8ff618)
+![image](https://github.com/user-attachments/assets/2ebc73f2-dd41-4977-8a07-4a40ae00f201)
 
 
 ## [[⬆]](#toc) <a name='5'>Дополнительные источники</a>
