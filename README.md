@@ -5,7 +5,7 @@
 _Скопируйте URL-адрес .tar.gz и загрузите его куда-нибудь на свой сервер с помощью wget или cURL:_
 
 ```
-sudo wget https://github.com/prometheus/node_exporter/releases/download/v<VERSION>/node_exporter-<VERSION>.<OS>-<ARCH>.tar.gz
+sudo wget https://github.com/prometheus/node_exporter/releases/download/v1.8.2/node_exporter-1.8.2.linux-amd64.tar.gz
 ```
 
 После загрузки последней версии Node Exporter приступайте к извлечению содержимого загруженного tar-файла с помощью следующей команды:
