@@ -8,7 +8,8 @@ _Скопируйте URL-адрес .tar.gz и загрузите его куд
 sudo wget https://github.com/prometheus/node_exporter/releases/download/v1.8.2/node_exporter-1.8.2.linux-amd64.tar.gz
 ```
 
-После загрузки последней версии Node Exporter приступайте к извлечению содержимого загруженного tar-файла с помощью следующей команды:
+_После загрузки последней версии Node Exporter приступайте к извлечению содержимого загруженного tar-файла с помощью следующей команды:_
+
 ```
 tar xvfz node_exporter-*.*-amd64.tar.gz
 ```
@@ -38,10 +39,6 @@ sudo useradd --no-create-home --shell /bin/false node_exporter
 sudo chown node_exporter:node_exporter /usr/local/bin/node_exporter
 ```
 
-chown node_exporter:node_exporter /usr/local/bin/node_exporter
-nano /etc/systemd/system/node_exporter.service
-```
-
 _Служба Node Exporter должна всегда запускаться при загрузке сервера, чтобы она всегда была доступна для получения информации. Создайте файл node_exporter.service с помощью nano:_
 
 ```
@@ -61,6 +58,7 @@ RestartSec=3
 [Install]
 WantedBy=multi-user.target
 ```
+
 ![image](https://github.com/user-attachments/assets/1b94d578-a6ef-4d19-9a58-c6f06d7552dc)
 
 
