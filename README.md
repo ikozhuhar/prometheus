@@ -141,6 +141,11 @@ _Проверяем работу Grafana_
 
 ![image](https://github.com/user-attachments/assets/96879ae8-28fc-427b-aa81-732d9335112f)
 
+_Теперь мы переходим на вкладку “Data Sources” и добавляем наш Prometheus_
+
+![image](https://github.com/user-attachments/assets/1efe7657-dc19-483e-bc7c-d08681b7fe62)
+
+
 ## Смтрим результат мониторинга нашего хоста
 
 ![image](https://github.com/user-attachments/assets/83075e0d-c698-4903-a2b3-cb964a8ff618)
