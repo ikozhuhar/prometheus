@@ -111,7 +111,7 @@ _Проверяем работу Prometheus_
 
 ![image](https://github.com/user-attachments/assets/b207d214-c6d8-4291-8964-6ee08d8e7c8c)
 
-_Заходим под рутом в контейнер прометеуса_
+_Заходим под рутом в контейнер Prometheus_
 
 ```
 docker exec -it -u 0 46a74c28a860 bash
