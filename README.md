@@ -2,9 +2,16 @@
 
 Мониторинг — это процесс отслеживания и анализа ключевых показателей эффективности с целью выявления и решения проблем в режиме реального времени. Он включает в себя сбор данных, их обработку и визуализацию. Мониторинг может быть использован для оценки производительности системы, выявления потенциальных проблем и оптимизации процессов.
 
+#### <a name='toc'>Содержание</a>
+1. [Архитектура Prometheus](#1)
+2. [Установка и запуск Node Exporter](#2)
+3. [Запусткаем Prometheus и Grafana в Docker](#3)
+4. [Результат настройки мониторинга](#4)
+5. [Дополнительные источники](#5)
+
 ![Prometheus-Alertmanager-Grafana](https://github.com/user-attachments/assets/e837662f-19db-4689-8c83-0ab71de5dbf1)
 
-## Архитектура Prometheus
+## [[⬆]](#toc) <a name='1'>Архитектура Prometheus</a>
 
 Prometheus является одним из самых популярных инструментов для мониторинга и предупреждения сбоев в работе различных систем. Он имеет веб-интерфейс и может быть настроен с помощью YAML-файлов. В данной статье мы познакомимся с основными компонентами Prometheus и рассмотрим процесс установки и настройки этой системы.
 
@@ -15,7 +22,7 @@ Prometheus является одним из самых популярных ин
 **AlertManager** —  уведомляет о возникших проблемах, обрабатывает оповещения и отправляет их на определенные адреса. Он поддерживает различные способы отправки уведомлений, такие как электронная почта, Slack, HipChat и PagerDuty. Также возможно настроить отправку оповещений через Telegram и другие сервисы.
 
 
-## Установка и запуск Node Exporter
+## [[⬆]](#toc) <a name='2'>Установка и запуск Node Exporter</a>
 
 _Скопируйте URL-адрес .tar.gz и загрузите его куда-нибудь на свой сервер с помощью wget или cURL:_
 
@@ -96,7 +103,7 @@ curl http://localhost:9100/metrics
 ![image](https://github.com/user-attachments/assets/d433ee4d-88fa-4f75-935b-316550eb0128)
 
 
-## Запусткаем Prometheus и Grafana в Docker
+## [[⬆]](#toc) <a name='3'>Запусткаем Prometheus и Grafana в Docker</a>
 
 ```
 sudo docker run -d --name=prometheus -p 9090:9090 bitnami/prometheus:latest
@@ -146,13 +153,18 @@ _Теперь мы переходим на вкладку “Data Sources” и 
 ![image](https://github.com/user-attachments/assets/1efe7657-dc19-483e-bc7c-d08681b7fe62)
 
 
-## Смтрим результат мониторинга нашего хоста
+## [[⬆]](#toc) <a name='4'>Результат настройки мониторинга</a>
 
 ![image](https://github.com/user-attachments/assets/83075e0d-c698-4903-a2b3-cb964a8ff618)
 
 
+## [[⬆]](#toc) <a name='5'>Дополнительные источники</a>
 
-
+1. [Настраиваем мониторинг с Prometheus]([https://ru.wikipedia.org/wiki/Systemd](https://pochemuchka.su/monitoring-with-prometheus-alertmanager-grafana/))
+2. [Установка и настройка Prometheus](https://timeweb.cloud/tutorials/servers/ustanovka-i-nastrojka-prometheus)
+3. [Система мониторинга Prometheus]([https://habr.com/ru/companies/timeweb/articles/824146/](https://help.reg.ru/support/servery-vps/oblachnyye-servery/ustanovka-programmnogo-obespecheniya/sistema-monitoringa-prometheus))
+4. [Grafana и Prometheus](https://1cloud.ru/blog/grafana_prometheus_system)
+5. [Установка и настройка Prometheus]([https://1cloud.ru/blog/grafana_prometheus_system](https://losst.pro/ustanovka-i-nastrojka-prometheus))
 
 
 
