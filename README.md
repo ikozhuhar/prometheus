@@ -152,6 +152,8 @@ sudo docker run -d --name=grafana -p 3000:3000 grafana/grafana-enterprise
 
 ![image](https://github.com/user-attachments/assets/844917b6-f826-4534-a150-631ef5d5b49d)
 
+![image](https://github.com/user-attachments/assets/024dfdc8-f484-47ee-955b-51187456f8b3)
+
 
 _Проверяем работу Grafana_
 
