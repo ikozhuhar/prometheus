@@ -112,7 +112,8 @@ sudo docker run -d --name=prometheus -p 9090:9090 bitnami/prometheus:latest
 
 ![image](https://github.com/user-attachments/assets/4694464b-dd89-469c-b665-234817587def)
 
-![image](https://github.com/user-attachments/assets/ca16facc-1c24-4ddf-8758-b95bb0da81b3)
+![image](https://github.com/user-attachments/assets/e4bf60c5-8bd8-44d2-a4fc-8f6d8f4bc1c2)
+
 ![image](https://github.com/user-attachments/assets/818fcd56-7d61-4719-836d-74c15d8324ad)
 
 _Проверяем работу Prometheus_
