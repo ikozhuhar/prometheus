@@ -7,7 +7,8 @@
 2. [Установка и запуск Node Exporter](#2)
 3. [Запусткаем Prometheus и Grafana в Docker](#3)
 4. [Результат настройки мониторинга](#4)
-5. [Дополнительные источники](#5)
+5. [Установка и запуск Grafana в Docker](#5)
+6. [Дополнительные источники](#6)
 
 ![Prometheus-Alertmanager-Grafana](https://github.com/user-attachments/assets/e837662f-19db-4689-8c83-0ab71de5dbf1)
 
@@ -103,7 +104,7 @@ curl http://localhost:9100/metrics
 ![image](https://github.com/user-attachments/assets/d433ee4d-88fa-4f75-935b-316550eb0128)
 
 
-## [[⬆]](#toc) <a name='3'>Запускаем Prometheus и Grafana в Docker</a>
+## [[⬆]](#toc) <a name='3'>Установка и запуск Prometheus в Docker</a>
 
 ```
 sudo docker run -d --name=prometheus -p 9090:9090 bitnami/prometheus:latest
@@ -144,6 +145,8 @@ docker restart 46a74c28a860
 ![image](https://github.com/user-attachments/assets/5b9a9e4e-cbdf-46cb-b27f-f3427e2bfc99)
 
 
+## [[⬆]](#toc) <a name='4'>Установка и запуск Grafana в Docker</a>
+
 _Проверяем работу Grafana_
 
 ![image](https://github.com/user-attachments/assets/96879ae8-28fc-427b-aa81-732d9335112f)
@@ -153,12 +156,12 @@ _Теперь мы переходим на вкладку “Data Sources” и 
 ![image](https://github.com/user-attachments/assets/1efe7657-dc19-483e-bc7c-d08681b7fe62)
 
 
-## [[⬆]](#toc) <a name='4'>Результат настройки мониторинга</a>
+## [[⬆]](#toc) <a name='5'>Результат настройки мониторинга</a>
 
 ![image](https://github.com/user-attachments/assets/1823b9f7-a3df-4c76-b720-a237370f29c1)
 
 
-## [[⬆]](#toc) <a name='5'>Дополнительные источники</a>
+## [[⬆]](#toc) <a name='6'>Дополнительные источники</a>
 
 1. [Настраиваем мониторинг с Prometheus](https://pochemuchka.su/monitoring-with-prometheus-alertmanager-grafana/)
 2. [Установка и настройка Prometheus](https://timeweb.cloud/tutorials/servers/ustanovka-i-nastrojka-prometheus)
