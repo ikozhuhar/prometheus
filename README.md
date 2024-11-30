@@ -159,7 +159,7 @@ _Проверяем работу Grafana_
 
 ![image](https://github.com/user-attachments/assets/96879ae8-28fc-427b-aa81-732d9335112f)
 
-_Импортируем нужный нам дашбоард_
+_Импортируем нужный нам dashboard_
 
 ![image](https://github.com/user-attachments/assets/47637ae8-da4c-4dd1-92f0-8a99ee51fff9)
 
