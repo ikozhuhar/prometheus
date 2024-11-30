@@ -181,6 +181,12 @@ _Переходим на вкладку “Data Sources” и добавляем
 docker pull prom/alertmanager
 ```
 ![image](https://github.com/user-attachments/assets/728892a1-24bc-4b89-a006-99a0b94f3d11)
+![image](https://github.com/user-attachments/assets/d80b1a18-94ac-4068-80cd-0f4e10ec124b)
+![image](https://github.com/user-attachments/assets/81326c0e-f05a-4366-a956-8b136bb618a0)
+![image](https://github.com/user-attachments/assets/2cd7eb5c-729f-4f01-a4b4-4183c258b4b2)
+
+
+
 
 
 
