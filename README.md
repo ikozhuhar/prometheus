@@ -175,6 +175,15 @@ _Переходим на вкладку “Data Sources” и добавляем
 ![image](https://github.com/user-attachments/assets/1823b9f7-a3df-4c76-b720-a237370f29c1)
 
 
+## [[⬆]](#toc) <a name='5'>Alertmanager</a>
+
+```
+docker pull prom/alertmanager
+```
+![image](https://github.com/user-attachments/assets/728892a1-24bc-4b89-a006-99a0b94f3d11)
+
+
+
 ## [[⬆]](#toc) <a name='6'>Дополнительные источники</a>
 
 1. [Настраиваем мониторинг с Prometheus](https://pochemuchka.su/monitoring-with-prometheus-alertmanager-grafana/)
