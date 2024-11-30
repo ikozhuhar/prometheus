@@ -150,6 +150,9 @@ docker restart 46a74c28a860
 sudo docker run -d --name=grafana -p 3000:3000 grafana/grafana-enterprise
 ```
 
+![image](https://github.com/user-attachments/assets/844917b6-f826-4534-a150-631ef5d5b49d)
+
+
 _Проверяем работу Grafana_
 
 ![image](https://github.com/user-attachments/assets/96879ae8-28fc-427b-aa81-732d9335112f)
