@@ -108,7 +108,6 @@ curl http://localhost:9100/metrics
 
 ```
 sudo docker run -d --name=prometheus -p 9090:9090 bitnami/prometheus:latest
-sudo docker run -d --name=grafana -p 3000:3000 grafana/grafana-enterprise
 ```
 
 ![image](https://github.com/user-attachments/assets/c776ba22-3c68-4891-ba55-c3e51e01c58e)
@@ -146,6 +145,10 @@ docker restart 46a74c28a860
 
 
 ## [[⬆]](#toc) <a name='4'>Установка и запуск Grafana в Docker</a>
+
+```
+sudo docker run -d --name=grafana -p 3000:3000 grafana/grafana-enterprise
+```
 
 _Проверяем работу Grafana_
 
